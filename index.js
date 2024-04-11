@@ -1,5 +1,4 @@
 const fs = require("fs");
-
 fs.writeFileSync('read.txt',"file created using core module \n");
 fs.writeFileSync('read.txt',"file created using core module 2 \n");
 fs.appendFileSync('read.txt', "appended text");
@@ -22,3 +21,5 @@ fs.renameSync('read.txt','newread.txt');
 //module.exports=req;//module.exports.req1 = req1
 //require("path") //req1.req1 (normal can be used if const{ } is used on import file)
 //can use same destructuring in module.exports as well
+
+
