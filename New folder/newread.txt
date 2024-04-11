@@ -1,0 +1,2 @@
+file created using core module 2 
+appended text
