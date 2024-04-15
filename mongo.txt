@@ -1,0 +1,6 @@
+use employee
+db.table1.insertOne({name: "Manraj", surname: "Singh", age: 22, active: true})
+db.table1.find()
+show collections
+db.table1.insertMany([{name: "Rakesh", surname: "Sharma", age: 23},{name: "Mukesh", surname: "Sharma", age: 24}])
+db.table1.deleteMany({name: "Mukesh"})
